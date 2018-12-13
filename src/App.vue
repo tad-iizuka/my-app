@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
+    <v-toolbar>
+      <v-toolbar-title class="headline text-uppercase ">
         <span>My</span>
         <span class="font-weight-light">App</span>
       </v-toolbar-title>
@@ -32,6 +32,11 @@
     <v-content>
       <router-view></router-view>
     </v-content>
+
+    <v-footer color="grey lighten-3">
+      <v-flex class="text-xs-center">&copy; 2018</v-flex>
+    </v-footer>
+
   </v-app>
 </template>
 
